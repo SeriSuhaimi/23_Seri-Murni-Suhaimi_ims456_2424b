@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY EDUCATION</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+    #video-background 
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+        background-size:inherit;
+        background-attachment: auto;
+    }
+    #video-background video 
+    {
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: fill;
+    }
+
+.section {
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section h2 {
+    margin: 20px;
+    color: beige;
+    text-shadow: 1px 1px rgb(245, 210, 95),-1px -1px rgb(240, 184, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 35pt;
+    font-weight: bold;
+}
+
+.education-table {
+    border-collapse: collapse;
+    margin: 20px;
+    align-content: center;
+    color: whitesmoke;
+    background-color:rgb(15, 15, 94);
+}
+
+.education-table th,
+.education-table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    color:black;
+    text-align: center;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education-table th {
+    background-color: rgb(123, 16, 194);
+}
+
+.education-table tr:nth-child(even) {
+    background-color:rgb(3, 168, 168);
+}
+
+.education-table tr:nth-child(odd) {
+    background-color:rgb(89, 150, 150);
+}
+.education-table tr:hover {
+    background-color:white;
+}
+
+.education-table iframe {
+    width: fit-content;
+    height: 50%;
+    border: 0;
+}
+    </style>
+    </head>
+
+<body>
+    <div id="video-background">
+        <video autoplay loop muted>
+          <source src="images/intro.mp4" type="video/mp4">
+        </video>
+      </div>
+
+        <div class="main">
+        <div class="logo">
+            <img src="images/uitm.png">
+        </div>
+     <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="biodata.html">ABOUT ME</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="experience.html">EXPERIENCE</a></li>
+                <li><a href="album.html">ALBUM</a></li>
+                <li><a href="contact.html">CONTACT ME</a></li>
+        </ul>
+    </nav>
+        </div> 
+    <section id="education" class="section">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+        <h2>My Education</h2>
+<hr>
+        <table class="education-table">
+            <tr>
+                <th>No.</th>
+                <th>Institution Name</th>
+                <th>Year</th>
+                <th>Achievement</th>
+                <th>Map</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>UiTM Kelantan Branch Kota Bharu Campus</td>
+                <td>2021-2024</td>
+                <td>Bachelor of Business Administration (Hons) Finance</td>
+                <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1147540338993!2d102.2283092738991!3d6.115250727775119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6afc3ed4c95fd%3A0x101640f19756f575!2sUiTM%20Cawangan%20Kelantan%20Kampus%20Kota%20Bharu!5e0!3m2!1sen!2smy!4v1689774399662!5m2!1sen!2smy" width="50" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>UiTM Perak Branch Tapah Campus</td>
+                <td>2019-2022</td>
+                <td>Diploma in Accountancy</td>
+                <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.210561167195!2d101.21644217389074!3d4.178969145961801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cb05ba96cbf20d%3A0xdd30c30c83bac918!2sUiTM%20Cawangan%20Perak%2C%20Kampus%20Tapah!5e0!3m2!1sen!2smy!4v1689774342822!5m2!1sen!2smy" width="50" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Sekolah Menengah Kebangsaan Dato' Sagor</td>
+                <td>2014-2018</td>
+                <td>Sijil Pelajaran Malaysia(SPM)</td>
+                <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.7013032967284!2d101.14430066918702!3d4.081117737666707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cb11f05b70c969%3A0xd381097d53d22895!2sSekolah%20Menengah%20Kebangsaan%20Dato&#39;%20Sagor!5e0!3m2!1sen!2smy!4v1689774456711!5m2!1sen!2smy" width="50" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+            </tr>
+          
+        </table>
+    </section>
+</body>
+</html>

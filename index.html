@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY PAGE</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+#video-background 
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+        background-size:inherit;
+        background-attachment: auto;
+    }
+    #video-background video 
+    {
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: fill;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color:whitesmoke;
+    font-size: 100px;
+    text-align: center;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+a:hover {
+font-size: 15pt;
+font-family: impact;
+color: black;
+background-color: white;
+}
+
+h1{
+    font-size: 84px;
+    text-shadow: 5px 5px 3px rgb(153, 243, 153),-5px -5px 3px rgb(96, 156, 96);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+        </style>
+    </head>
+
+<body>
+    <div id="video-background">
+        <video autoplay loop muted>
+          <source src="images/intro.mp4" type="video/mp4">
+        </video>
+      </div>
+
+        <div class="main">
+        <div class="logo">
+            <img src="images/uitm.png">
+        </div>
+     <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="biodata.html">ABOUT ME</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="experience.html">EXPERIENCE</a></li>
+                <li><a href="album.html">ALBUM</a></li>
+                <li><a href="contact.html">CONTACT ME</a></li>
+        </ul>
+    </nav>
+        </div> 
+          
+        <div class="title">
+            <hr>
+        <h1> WELCOME TO MY PAGE</h1>
+        <div id="t1"></div>
+        <hr>
+        <br>
+                <b><p><span style="background-color: rgb(241, 172, 123); color:black;">
+                    Allah, give me eyes that see the best in people.</span></b></p>
+                <b><p><span style="background-color: rgb(241, 172, 123); color:black;">
+                    A heart that forgives the worst. </span></b></p>     
+                <b><p><span style="background-color: rgb(241, 172, 123); color:black;">
+                     A mind that forgets the bad.</span></b></p>  
+                <b><p><span style="background-color: rgb(241, 172, 123); color:black;">
+                    And a soul that never loses faith.</span></b></p>  
+                <b><p><span style="background-color: rgb(241, 172, 123); color:black;">
+                    Aamiinn.</span></b></p>  
+        <br>
+        <hr>
+        </div> 
+    </body>
+</html>
